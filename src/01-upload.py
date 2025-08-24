@@ -3,6 +3,7 @@ from databricks.connect import DatabricksSession
 import pandas as pd
 from dotenv import load_dotenv
 import os
+import random
 import uuid
 load_dotenv()
 
@@ -27,7 +28,6 @@ df.to_csv("../data/products_synthetic_data.csv", index=False)
 
 #%%
 # For each of the products create a year to snapshot of sales data by month for every month in the year 2023,2024 & 2025
-import random
 
 # Generate sales data for each product
 sales_data = []

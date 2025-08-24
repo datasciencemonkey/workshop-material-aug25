@@ -1,0 +1,12 @@
+###
+POST http://127.0.0.1:8000/chat
+Content-Type: application/json
+X-Request-ID: req-sathish-12345
+X-Session-ID: session-sathish-12345
+X-User-ID: user-sathish-12345
+
+{
+    "message": "what are some fun things to do in newport news va"
+}
+
+
