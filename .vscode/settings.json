@@ -1,0 +1,15 @@
+{
+    "jupyter.interactiveWindow.cellMarker.codeRegex": "^# COMMAND ----------|^# Databricks notebook source|^(#\\s*%%|#\\s*\\<codecell\\>|#\\s*In\\[\\d*?\\]|#\\s*In\\[ \\])",
+    "jupyter.interactiveWindow.cellMarker.default": "# COMMAND ----------",
+    "sqltools.connections": [
+        {
+            "connectionMethod": "VS Code Extension (beta)",
+            "catalog": "main",
+            "previewLimit": 50,
+            "driver": "Databricks",
+            "name": "azdb",
+            "path": "/sql/1.0/warehouses/148ccb90800933a1",
+            "schema": "sgfs"
+        }
+    ]
+}
